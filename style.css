@@ -59,11 +59,11 @@ ul {
 
 
   .top-mid-left, .top-mid-right{
-display: flex;
-width: 50%;
-flex-direction: column;
-justify-content: center;
-padding-top: 100px;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
 
   }
 
@@ -101,6 +101,10 @@ padding-top: 100px;
   #button-text{
     font-size: 16px;
     font-weight: bold;
+  }
+
+  .mid1{
+    height: 500px;
   }
 
   .midde{
@@ -147,3 +151,31 @@ padding-top: 100px;
     width: 150px;
    
  }
+
+
+ .mid2{
+    background-color: #E5E7EB;
+    height: 400px;
+ }
+
+  .midde2{
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .testimonial{
+    width: 700px;
+    font-size: 36px;
+    font-style: italic;
+  }
+
+  .by{
+    padding-left: 470px;
+    font-size: 24px;
+    font-weight: bold;
+
+
+  }
