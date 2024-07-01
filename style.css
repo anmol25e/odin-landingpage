@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.top{
+    background-color: #1F2937;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.hright, .hleft{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hright{
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  #logo{
+
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  #link{
+    color: #F9FAF8;
+    font-size: 18px;
+  }
